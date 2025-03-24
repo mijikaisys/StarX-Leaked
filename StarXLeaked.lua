@@ -10,7 +10,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local TweenService = game:GetService("TweenService")
 local speedFactorPingBased
 local speedFactor
-local Nurysium_Util = loadstring(game:HttpGet("https://raw.githubusercontent.com/flezzpe/Nurysium/main/nurysium_helper.lua"))()
+local Nurysium_Util = loadstring(game:HttpGet("https://raw.githubusercontent.com/mijikaisys/StarX-Leaked/refs/heads/main/nurysium_helper.lua"))()
 local function getTrainingBall()
 	for index, ball in workspace:WaitForChild("TrainingBalls"):GetChildren() do
 		if ball:IsA("BasePart") and ball:GetAttribute("realBall") then
